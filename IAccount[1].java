@@ -1,6 +1,10 @@
 public interface IAccount {
-    void Deposit(double amount);
-    double Withdraw(double amount);
-    double GetCurrentBalance();
-    int GetAccountNumber();
+
+    void deposit(double amount);
+
+    double withdraw(double amount);
+
+    double getCurrentBalance();
+
+    int getAccountNumber();
 }
